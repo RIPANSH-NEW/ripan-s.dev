@@ -19,14 +19,14 @@ const PROJECTS = [
     title: "Levista Shop",
     desc: "Website penjualan produk dengan system chat to order.",
     tags: ["Html", "Node.js", "CSS"],
-    img: "./src/assets/levista.png",
+    img: "./assets/levista.png",
     color: "#7c3aed",
   },
   {
     title: "SA-MP Dashoard",
     desc: "Dashboard SA-MP dengan register, login, create character, edit character.",
     tags: ["Next.js", "OpenAI", "Tailwind"],
-    img: "./src/assets/samp.png",
+    img: "./assets/samp.png",
     color: "#6d28d9",
   },
 ];
@@ -384,7 +384,7 @@ function AboutSection() {
               position: "relative", overflow: "hidden",
             }}>
               <img
-                src="./src/assets/profile.jpeg"
+                src="./assets/profile.jpeg"
                 alt="Profile"
                 style={{
                   width: "100%", height: "100%",
