@@ -3,14 +3,12 @@ import { useState, useEffect, useRef } from "react";
 const NAV_LINKS = ["Home", "About", "Skills", "Projects", "Contact"];
 
 const SKILLS = [
-  { name: "React / Next.js", level: 10, icon: "⚛" },
-  { name: "JavaScript", level: 88, icon: "JS" },
-  { name: "HTML & CSS / Tailwind", level: 95, icon: "</>" },
+  { name: "React", level: 10, icon: "⚛" },
+  { name: "JavaScript", level: 70, icon: "JS" },
+  { name: "HTML & CSS / Tailwind", level: 55, icon: "</>" },
   { name: "MySQL / MongoDB", level: 75, icon: "DB" },
   { name: "Git & GitHub", level: 30, icon: "⑂" },
-  { name: "UI/UX Design", level: 78, icon: "✦" },
-  { name: "REST API", level: 10, icon: "⇄" },
-  { name: "PAWN", level: 10, icon: "♙" },
+  { name: "PAWN", level: 90, icon: "♙" },
   { name: "PHP / Laravel", level: 50, icon: "ₚₕₚ" },
 ];
 
